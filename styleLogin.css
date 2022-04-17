@@ -1,0 +1,78 @@
+body {
+background: #f8f8f5;
+}
+.div2{
+    height: 100px;
+    
+}
+.div1{
+    width: 300px;
+    margin: auto;
+    margin: 10 0 0 450px;
+    overflow: hidden;
+    padding: 40px;
+    background: #def077;
+    border: black;
+    border-radius: 20px;
+    
+}
+
+h2{
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+label{
+    color: black;
+    padding-left: 110px;
+    padding-bottom: 100;
+    margin-left: auto;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.inputText{
+    width: 200px;
+    margin-left: 55px;
+    margin-top: 20px;
+    height: 30px ;
+    border: none;
+    border-radius: 5px;
+}
+
+.inputText:focus{
+    outline: none;
+}
+#logButton{
+    width: 200px;
+    margin-left: 55px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    font-size: 16px;
+}
+#logButton:hover {
+    background-color:#cacfc2dc;
+    transition: 0.7s;
+}
+
+.boton{
+    width: 75px;
+    height: 25px;
+    border-radius: 3px;
+    border-color: rgb(175, 172, 172);
+    background-color: rgb(216, 212, 212);
+    margin-left: 115px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif
+}
+.boton:hover {
+    background-color:#f1f5eadc;
+    transition: 0.7s;
+}

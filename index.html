@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form</title>
+    <link rel="stylesheet" type="text/css" href="styleLogin.css"/>
+
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+
+    <script>
+        function myfunction()
+        {
+            var pw= document.forms["myForm"]["Pass"].value;
+            if(pw=="910585")
+            {
+                window.location.href="contenido.html";
+            }
+            else{
+                alert("La clave es incorrecta");
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="div2"></div>
+    <div class="div1">
+        <a href="https://mercury-gerbil-fdd.notion.site/No-creas-que-sera-tan-f-cil-cdf605e10a4646d0b146dd365d84295e" target="_blank" title="Resuelve el enigma y obtendrás el password">
+            <button class="boton">Enigma</button>
+        </a>
+        <form name="myForm" method="post">
+            <h2>Login</h2>
+            <input type="password" name="Pass" class="inputText" placeholder="Password">
+            <br><br>
+            <input type="button" name="log" id="logButton" value="Ingresar" onclick="myfunction()">
+            <br><br>
+        </form>
+    </div>
+    
+</body>
+</html>
