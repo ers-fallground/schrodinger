@@ -973,18 +973,16 @@ ul.features-list li {
 ----------------------*/
 
 #video-section {
-  background: url('../images/temp/tweet-bg.jpg') center top;
+  background: url('../images/uno.jpg') center top;
   position: relative;
   padding: 100px 0;
 }
-
 #video-section:before {
   position: absolute;
   content: '';
   top: 0;
   left: 0;
-  background: #fc6e51;
-  opacity: .9;
+  opacity: .5;
   width: 100%;
   height: 100%;
   z-index: 2;
